@@ -50,21 +50,21 @@ pluralizeListTitles = false
     [[languages.en.menu.main]]
         identifier = "portfolio"
         name = "我的作品"
-        url = "/portfolio/arrangement"
+        url = "/portfolio/arrangement/all"
         weight = 40
 
       [[languages.en.menu.main]]
           identifier = "arrangement"
           parent = "portfolio"
           name = "編曲"
-          url = "/portfolio/arrangement"
+          url = "/portfolio/arrangement/all"
           weight = 10
       
       [[languages.en.menu.main]]
-          identifier = "piano"
+          identifier = "piano-video"
           parent = "portfolio"
           name = "鋼琴"
-          url = "/portfolio/piano"
+          url = "/portfolio/piano-video"
           weight = 20
       
 
