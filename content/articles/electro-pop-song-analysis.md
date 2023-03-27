@@ -52,7 +52,7 @@ draft: false
 
 我在副歌前半接到副歌後半的時候，留了兩個安靜的空拍。你聽聽看這兩個空拍是不是會讓你有種「很期待下一小節的第一拍是重拍」的感覺？
 
-{{< audio src="/audio/gratefulness-awakened-C2-half-rest.mp3">}}
+{{< audio src="/audio/gratefulness-awakened-c2-half-rest.mp3">}}
 
 因為瞬間安靜，會讓聽的人有一種刺激，而很期待下一個正拍會有個很重的音樂滿足自己。
 你可以想像坐雲霄飛車的畫面，坐到最高處時明明速度最慢，但卻是最緊張的時候，因為接下來就要往下衝了。同理，音樂也是一樣，瞬間安靜之後再炸出來，會讓人得到一種爽感。
@@ -63,13 +63,13 @@ draft: false
 講到「重拍」，很多人（包括以前的我）會下意識的認為要讓低頻很多，大鼓很重，然而大錯特錯。低頻很重要沒錯，但中高頻也非常重要。因此大鼓不能選那種聽起來很低的大鼓，反而是那種有一些高頻的「鼓皮」的聲音聽起來更有力。另外，加入白噪音，會讓整體變很亮，也會有把頻率佔滿的感覺。你可以把白噪音想像成爵士鼓裡面的鈸。
 
 我們先單聽白噪音：
-{{< audio src="/audio/gratefulness-awakened-C2-white-noise-only.mp3">}}
+{{< audio src="/audio/gratefulness-awakened-c2-white-noise-only.mp3">}}
 
 這是有白噪音的版本：
-{{< audio src="/audio/gratefulness-awakened-C2-with-white-noise.mp3">}}
+{{< audio src="/audio/gratefulness-awakened-c2-with-white-noise.mp3">}}
 
 接下來是沒有白噪音的版本：
-{{< audio src="/audio/gratefulness-awakened-C2-no-white-noise.mp3">}}
+{{< audio src="/audio/gratefulness-awakened-c2-no-white-noise.mp3">}}
 
 雖然沒有白噪音的版本，聽起來也不會太單調，因為有加crash。但crash只有維持不到一拍，如果加入白噪音，可以讓亮的感覺維持更久。
 

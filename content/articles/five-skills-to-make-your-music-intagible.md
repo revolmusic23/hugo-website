@@ -15,9 +15,9 @@ draft: false
 
 首先，請先聽這兩段音樂，分別是主一跟主二的伴奏檔。在看下面的文章之前，你可以試著聽聽看裡面總共有哪些樂器。
 
-{{< audio src="/audio/gratefulness-awakened-A1.mp3">}}
+{{< audio src="/audio/gratefulness-awakened-a1.mp3">}}
 
-{{< audio src="/audio/gratefulness-awakened-A2.mp3">}}
+{{< audio src="/audio/gratefulness-awakened-a2.mp3">}}
 
 ---
 
@@ -25,7 +25,7 @@ draft: false
 
 1. 襯底（Pad）
 
-{{< audio src="/audio/gratefulness-awakened-A1-pad.mp3">}}
+{{< audio src="/audio/gratefulness-awakened-a1-pad.mp3">}}
 說到空靈，加入一個具有空靈效果的Pad，是最直接的方法。
 
 2. 掛留二和弦（Sus2 Chord）
@@ -33,11 +33,11 @@ draft: false
 主歌的和弦：Bsus2 → Gsus2 → Dsus2 → F#m7
 不知道為什麼比起一般的大三和弦跟小三和弦，我更喜歡sus2，但這只是我的個人偏好。我認為和弦的第三音加上去就有一種「莫名的普通感」，而sus2反而是可以營造出這個空靈感的因素之一。
 
-![主歌和弦](/Gratefulness-Awakened-A1.png)
+![主歌和弦](/gratefulness-awakened-a1.png)
 
 3. 在鋼琴上加入反轉（Reverse）效果
 
-{{< audio src="/audio/gratefulness-awakened-A1-piano.mp3">}}
+{{< audio src="/audio/gratefulness-awakened-a1-piano.mp3">}}
 這是一般人聽不太出來的小東西。
 第一次主歌的時候，我把鋼琴放在右前方，reverse的效果放在左邊，你可以聽聽看有沒有聽到。
 不加當然不會影響很多，但是加了就會讓身體的韻律在第四拍的時候推的更大力。
@@ -47,7 +47,7 @@ draft: false
 
 4. Chorus效果的電吉他
 
-{{< audio src="/audio/gratefulness-awakened-A2-EG.mp3">}}
+{{< audio src="/audio/gratefulness-awakened-a2-EG.mp3">}}
 Chorus效果一開下去，就很有空靈的氛圍對吧。
 我另外還加了delay的效果，讓吉他聽起來有綿延不絕的感覺。
 
@@ -58,7 +58,7 @@ Chorus效果一開下去，就很有空靈的氛圍對吧。
 
 5. 高頻的琶音器（Arpeggiator）
 
-{{< audio src="/audio/gratefulness-awakened-A2-arp.mp3">}}
+{{< audio src="/audio/gratefulness-awakened-a2-arp.mp3">}}
 加完吉他之後，雖然整體輪廓有出來了，但總覺得少了一點高頻的東西。
 我想要一些有節奏的東西，增加韻律感，而不是像pad那樣只是一個長音。因此，我試著加入高頻的琶音器。
 
@@ -71,10 +71,10 @@ Chorus效果一開下去，就很有空靈的氛圍對吧。
 聽完拆解之後，我們再聽一次這兩段音樂，聽聽看是不是所有樂器都有聽到了呢？
 
 主一：電子鼓、鋼琴、鋼琴加reverse效果、Pad
-{{< audio src="/audio/gratefulness-awakened-A1.mp3">}}
+{{< audio src="/audio/gratefulness-awakened-a1.mp3">}}
 
 主二：電子鼓、電貝斯、電吉*3、Pad、琶音器
-{{< audio src="/audio/gratefulness-awakened-A2.mp3">}}
+{{< audio src="/audio/gratefulness-awakened-a2.mp3">}}
 
 ---
 

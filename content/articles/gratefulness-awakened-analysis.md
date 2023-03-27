@@ -4,7 +4,7 @@ title: "我怎麼編出一首電子流行音樂風格的歌？要怎麼做出「
 date: 2023-03-20
 description: "" 
 tags: [""]
-thumbnail: "/Gratefulness_Awakened_horizontal.jpg"
+thumbnail: "/gratefulness-awakened-horizontal.jpg"
 draft: true
 ---
 
