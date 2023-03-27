@@ -1093,9 +1093,6 @@ a.page-link {
 .w-1\/2 {
   width: 50%;
 }
-.w-3/4 {
-  width: 75%;
-}
 .w-full {
   width: 100%;
 }
