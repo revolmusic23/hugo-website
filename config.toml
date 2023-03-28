@@ -218,3 +218,9 @@ pluralizeListTitles = false
     # Enable to include inline HTML
     unsafe = true
 
+
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.8

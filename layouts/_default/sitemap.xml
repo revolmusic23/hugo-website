@@ -6,6 +6,7 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+<!--<add name="SitemapXml" path="sitemap.xml" verb="*" type="System.Web.Routing.UrlRoutingModule" resourceType="Unspecified" preCondition="integratedMode" />-->
 
 <url>
   <loc>https://revolmusic.me/</loc>
