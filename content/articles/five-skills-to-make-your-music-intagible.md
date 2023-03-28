@@ -13,6 +13,8 @@ draft: false
 
 如果你還沒看過前一篇文章的話，請點擊 [這裡](/articles/electro-pop-song-analysis)先去把它看完喔！
 
+[歌曲連結](/portfolio/arrangement/music-gratefulness-awakened)
+
 首先，請先聽這兩段音樂，分別是主一跟主二的伴奏檔。在看下面的文章之前，你可以試著聽聽看裡面總共有哪些樂器。
 
 {{< audio src="/audio/gratefulness-awakened-a1.mp3">}}
