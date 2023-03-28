@@ -46,5 +46,11 @@ Yes We CAM!
 Unique Life
 {{< audio src="/audio/20210514_Unique-Life_mastering.mp3" caption="" description="參與編曲">}}
 
+Rock Song 001 (inst)
+{{< audio src="/audio/20200928_做到底_mastering_inst.mp3" caption="" description="參與編曲 | 全midi（包括電吉、電貝斯）">}}
+
+USB 隨行樂團 - 你會不會喜歡我現在的模樣
+{{< audio src="/audio/20200224_你會不會喜歡我現在的模樣_mastering.mp3" caption="" description="參與編曲、和聲編寫">}}
+
 這一次 (伊甸CRPD 5週年)
 {{< audio src="/audio/20191109_這一次_mastering.mp3" caption="" description="參與編曲">}}

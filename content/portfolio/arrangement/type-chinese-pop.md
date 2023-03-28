@@ -5,4 +5,9 @@ draft: false
 ---
 
 
-{{< audio src="/audio/20191109_這一次_mastering.mp3" caption="這一次 (伊甸CRPD 5週年)" description="參與編曲">}}
+
+這一次 (伊甸CRPD 5週年)
+{{< audio src="/audio/20191109_這一次_mastering.mp3" caption="" description="參與編曲">}}
+
+USB 隨行樂團 - 你會不會喜歡我現在的模樣
+{{< audio src="/audio/20200224_你會不會喜歡我現在的模樣_mastering.mp3" caption="" description="參與編曲、和聲編寫">}}

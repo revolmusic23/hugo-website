@@ -15,3 +15,5 @@ description="參與編曲、混音、電吉他錄音">}}
 Yes We CAM!
 {{< audio src="/audio/20220430_Yes-We-CAM!_MMM.mp3" caption="" description="參與編曲、電吉他錄音">}}
 
+Rock Song 001 (inst)
+{{< audio src="/audio/20200928_做到底_mastering_inst.mp3" caption="" description="參與編曲 | 全midi（包括電吉、電貝斯）">}}
