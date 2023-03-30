@@ -46,7 +46,7 @@ draft: false
 
 我想要的結尾是簡潔有力，且意猶未盡的感覺。因此我想到，可以試著把副歌濃縮成簡明扼要的兩句，並且稍微修改一點旋律，以清唱結尾。
 另外，我把最後一個字的delay突然開的很大，這短短幾秒的delay，會讓聽的人有種多待在夢境幾秒的感覺。
-![副歌hook](/gratefulness-awakened-vox-delay.png)
+![人聲結尾加delay](/gratefulness-awakened-vox-delay.png)
 
 
 

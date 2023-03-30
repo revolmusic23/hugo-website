@@ -8,13 +8,11 @@ draft: false
 
 
 
-
-
-
+Ballad Piano Improvisation in Bb major
+{{<youtube t2xIve7NZMw>}}
 
 八三夭 - 【最後的831】 (Piano Cover)
 {{<youtube 0KFsndYI7yU>}}
-
 
 陳忻玥 Vicky Chen -【炙愛】(Piano Cover)
 {{<youtube gn-jin8wyR4>}}
