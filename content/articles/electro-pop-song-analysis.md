@@ -5,7 +5,7 @@ date: 2023-03-25
 description: "" 
 tags: [""]
 # thumbnail: "/electropop-song-analysis.jpeg"
-thumbnail: "/20230329-thumbnail.jpeg"
+thumbnail: "/thumbnail/electropop-song-analysis-2.jpeg"
 draft: false
 ---
 
@@ -37,7 +37,7 @@ draft: false
 這首歌的副歌是有分前半跟後半的，前半的副歌為八小節。但是Demo裡面，這兩半的背景音樂幾乎是一樣的，我覺得需要來點變化。
 至於要有什麼變化呢？在我跟著唱了幾次副歌之後，我腦中出現了*五月天跟鄧紫棋合唱的盛夏光年的音樂*，覺得裡面副歌的韻律非常適合加在這裡面。
 於是我用電吉他跟合成器彈了一個類似的旋律，並且加上鼓的韻律，就變成了這樣。
-![副歌hook](/gratefulness-awakened-c1-hook-2.png)
+![副歌hook](/song-analysis/gratefulness-awakened/c1-hook-2.png)
 
 
 * 刪掉最後一次副歌，改成清唱結尾
@@ -46,7 +46,7 @@ draft: false
 
 我想要的結尾是簡潔有力，且意猶未盡的感覺。因此我想到，可以試著把副歌濃縮成簡明扼要的兩句，並且稍微修改一點旋律，以清唱結尾。
 另外，我把最後一個字的delay突然開的很大，這短短幾秒的delay，會讓聽的人有種多待在夢境幾秒的感覺。
-![人聲結尾加delay](/gratefulness-awakened-vox-delay.png)
+![人聲結尾加delay](/song-analysis/gratefulness-awakened/vox-delay.png)
 
 
 
@@ -60,7 +60,7 @@ draft: false
 
 我在副歌前半接到副歌後半的時候，留了兩個安靜的空拍。你聽聽看這兩個空拍是不是會讓你有種「很期待下一小節的第一拍是重拍」的感覺？
 
-{{< audio src="/audio/gratefulness-awakened-c2-half-rest.mp3">}}
+{{< audio src="/audio/gratefulness-awakened/c2-half-rest.mp3">}}
 
 因為瞬間安靜，會讓聽的人有一種刺激，而很期待下一個正拍會有個很重的音樂滿足自己。
 你可以想像坐雲霄飛車的畫面，坐到最高處時明明速度最慢，但卻是最緊張的時候，因為接下來就要往下衝了。同理，音樂也是一樣，瞬間安靜之後再炸出來，會讓人得到一種爽感。
@@ -71,13 +71,13 @@ draft: false
 講到「重拍」，很多人（包括以前的我）會下意識的認為要讓低頻很多，大鼓很重，然而大錯特錯。低頻很重要沒錯，但中高頻也非常重要。因此大鼓不能選那種聽起來很低的大鼓，反而是那種有一些高頻的「鼓皮」的聲音聽起來更有力。另外，加入白噪音，會讓整體變很亮，也會有把頻率佔滿的感覺。你可以把白噪音想像成爵士鼓裡面的鈸。
 
 我們先單聽白噪音：
-{{< audio src="/audio/gratefulness-awakened-c2-white-noise-only.mp3">}}
+{{< audio src="/audio/gratefulness-awakened/c2-white-noise-only.mp3">}}
 
 這是有白噪音的版本：
-{{< audio src="/audio/gratefulness-awakened-c2-with-white-noise.mp3">}}
+{{< audio src="/audio/gratefulness-awakened/c2-with-white-noise.mp3">}}
 
 接下來是沒有白噪音的版本：
-{{< audio src="/audio/gratefulness-awakened-c2-no-white-noise.mp3">}}
+{{< audio src="/audio/gratefulness-awakened/c2-no-white-noise.mp3">}}
 
 雖然沒有白噪音的版本，聽起來也不會太單調，因為有加crash。但crash只有維持不到一拍，如果加入白噪音，可以讓亮的感覺維持更久。
 
@@ -85,6 +85,10 @@ draft: false
 * 音場拉開，電吉錄兩軌的話，不要讓兩軌完全對齊
 
 把音場拉開，就會聽起來很滿。因此有一些副歌放在極左極右的樂器，前面的段落我會把他們放稍微中間一點，這樣會更有層次感。
+
+![電吉他一左一右](/gratefulness-awakened/pan-EG-LR.png)
+（上面兩軌是pre-chorus，稍微偏中間一點；下面兩軌是副歌，放到極左極右。）
+
 另外，你可能也有聽過電吉他同一個東西要錄兩次，並且放在左右兩邊的技巧吧，這就是為了讓吉他聲更立體，音場更開。然而有時候如果不小心把兩軌彈的太一致，這樣反而會聽起來像是複製音軌的感覺，這樣就沒有用了。因此，適時把電吉他的拍子「調不準」，反而會讓音場變得更開喔。
 
 ---

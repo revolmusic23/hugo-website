@@ -19,8 +19,8 @@ pluralizeListTitles = false
     [languages.en.params]
       introTitle = "我是 雷歐 Revol"
       introSubtitle = "編曲 x 流行鋼琴"
-      introPhoto = "/profile-NTU.jpeg"
-      logo = "/logo-001.png"
+      introPhoto = "/thumbnail/profile-NTU.jpeg"
+      logo = "/thumbnail/logo-001.png"
 
     [[languages.en.menu.main]]
         identifier = "articles"

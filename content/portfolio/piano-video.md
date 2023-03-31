@@ -7,6 +7,8 @@ draft: false
 ---
 
 
+TRASH - 重感情的廢物 (Piano cover)
+{{<youtube OuGq_d4kwek>}}
 
 Ballad Piano Improvisation in Bb major
 {{<youtube t2xIve7NZMw>}}
