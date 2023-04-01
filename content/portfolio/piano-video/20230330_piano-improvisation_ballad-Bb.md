@@ -1,19 +1,21 @@
 ---
 title: "鋼琴即興 | Ballad Piano Improvisation in Bb major"
 date: 2023-03-30
-description: "" 
-tags: [""]
-thumbnail: "/thumbnail/piano-video/20230330_piano-improvisation-ballad-Bb.png"
+thumbnail: "/piano-video/20230330_piano-improvisation_ballad-Bb.png"
+# url: "/articles/piano-improvisation_ballad-Bb"
+url: "/piano-video/piano-improvisation_ballad-Bb"
 draft: false
 ---
 
-{{< audio src="/audio/20230330_piano-improvisation-Bb-ballad.mp3" caption="" description="">}}
+{{< audio src="/audio/20230330_piano-improvisation_Bb-ballad.mp3" caption="" description="">}}
 
-piano-improvisation-ballad-Bb
+Ballad Piano Improvisation in Bb major
 
 {{<youtube t2xIve7NZMw>}}
 
 ---
+
+## 喜歡我的鋼琴演奏嗎？
 
 歡迎到我的 [鋼琴演奏頁面](/portfolio/arrangement/piano-video) 聽我的其他鋼琴演奏歌曲。
 

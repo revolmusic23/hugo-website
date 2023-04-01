@@ -1,9 +1,8 @@
 ---
 title: "鋼琴演奏 | TRASH - 重感情的廢物 (Piano cover)"
 date: 2023-03-31
-description: "" 
-tags: [""]
-thumbnail: "/thumbnail/piano-video/20230331_piano-cover_trash-重感情的廢物.jpeg"
+thumbnail: "/piano-video/20230331_piano-cover_trash-重感情的廢物.jpeg"
+url: "/piano-video/piano-cover_trash-heavyhearted-loser"
 draft: false
 ---
 
