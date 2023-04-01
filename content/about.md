@@ -2,9 +2,6 @@
 author: 雷歐 Revol
 title: 關於我 About Me
 date: 2023-03-23
-# description:
-# keywords: ["about-us", "about-hugo", "contact"]
-# type: about
 thumbnail: "/thumbnail/profile-NTU.jpeg"
 ---
 
@@ -19,7 +16,7 @@ thumbnail: "/thumbnail/profile-NTU.jpeg"
 
 如果有想要找我編曲或各種合作邀約，歡迎寄信到我的信箱。
 
-如果有想要找我上編曲，或流行鋼琴的課，也歡迎寄信過來。
+如果有想要找我上編曲，或流行鋼琴家教，也歡迎寄信過來。
 詳細費用跟上課方式我們可以再討論。
 
 我的E-mail：<revolmusic23@gmail.com>
