@@ -7,7 +7,7 @@ url: "/piano-video/piano-improvisation_ballad-Bb"
 draft: false
 ---
 
-{{< audio src="/audio/20230330_piano-improvisation_Bb-ballad.mp3" caption="" description="">}}
+{{< audio src="/audio/piano/20230330_piano-improvisation_Bb-ballad.mp3" caption="" description="">}}
 
 Ballad Piano Improvisation in Bb major
 
