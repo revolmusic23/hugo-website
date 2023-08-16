@@ -1,7 +1,7 @@
 ---
 title: "唯有感激 Gratefulness Awakened"
 date: 2022-09-11
-draft: false
+draft: true
 ---
 
 參與編曲、混音、電吉他錄音

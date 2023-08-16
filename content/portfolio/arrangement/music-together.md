@@ -1,7 +1,7 @@
 ---
 title: "同在同行"
 date: 2022-12-12
-draft: false
+draft: true
 ---
 
 參與編曲、混音、電吉他錄音、弦樂編寫

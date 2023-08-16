@@ -9,6 +9,14 @@
 /* Tailwind's utility classes - generated based on config file */
 @import "node_modules/tailwindcss/utilities";
 
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @layer components {
   details.toc[open] summary ~ * {
     animation: slideUp 0.25s ease-in-out;
@@ -55,6 +63,9 @@
 
 }
 
+* {
+  font-family: "Playfair Display", "微軟正黑體", serif;
+}
 
 
 
@@ -192,9 +203,14 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   transition: visibility 0.15s ease, transform 0.15s ease, -webkit-transform 0.15s ease;
 }
 
+@media screen and (min-width: 1000px) {
+  
+}
+
 @media screen and (min-width: 767px) {
   .menu {
     /* border-bottom: 5px solid #e22d30; */
+    /* font-size: 50%; */
   }
   .menu__btn {
     display: none;
@@ -209,6 +225,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
     border: 0;
     -webkit-transform: none;
     transform: none;
+    
 	}
   .menu__item {
     border-left: 1px solid rgba(255, 255, 255, 0.1);

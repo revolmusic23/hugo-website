@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.7.0.js"></script>
+
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/play-button-o.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/play-pause-o.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/play-button.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/play-pause.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/file-document.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/menu.css' rel='stylesheet'>
+</head>
+<body>
+
+    <nav class="nav_menu">
+        <h1><a href="index.html">雷歐 REVOL</a></h1>
+        <label for="show-menu">
+            <i class="gg-menu"></i>            
+        </label>
+        <input type="checkbox" id="show-menu">
+        
+        <ul class="nav_list">
+            <li><a href="portfolios.html">作品集 Portfolios</a></li>
+            <li><a href="about.html">關於我 About</a></li>
+            <li><a href="articles.html">文章 Articles</a></li>
+            <!-- search -->
+        </ul>
+
+    </nav>
+
+    <div class="intro">
+        <div class="word">
+            <h2>我是 雷歐 REVOL</h2>
+            <h5>編曲 x 流行鋼琴教學</h5>
+        </div>
+        <img src="" alt="">
+    </div>
+
+    <ul class="portfolios">
+        <li id="song0">
+            <div class="portfolios-thumbnail">
+                <img src="" alt="" class="portfolios-img">
+                <div class="portfolios-play">
+                    <i class="gg-play-button-o"></i>
+                </div>    
+                <a href="">
+                    <i class="gg-file-document"></i>
+                </a>
+            </div>
+            
+            <h4 class="name">Song Name
+                <p>participation</p>
+            </h4>
+            
+        </li>
+    </ul>
+
+    <div class="player">
+        <img src="" alt="" class="player-thumbnail">
+        <h4 class="player-name">Song Name
+            <p>song part</p>
+        </h4>
+        
+        <!-- <div class="player-progress"> -->
+        <input type="range" value="0" class="slider" id="player_progress">
+        <!-- </div> -->
+
+        <div class="player-time">
+            <div class="player-currentTime" id="player_currentTime"></div>
+            <div class="player-songLength" id="player_songLength"></div>
+        </div>
+        
+        <!-- PLAY & PAUSE BUTTON -->
+        <i class="gg-play-button" id="playerbtnPlay"></i>
+        <i class="gg-play-pause-o" id="playerbtnPause"></i>
+        
+        <div class="player-cancel"></div>
+    </div>
+
+
+
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

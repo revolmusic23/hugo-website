@@ -2,7 +2,7 @@
 {{ $datestr := (partial "date.html" (dict "date" .Date "language" $.Page.Language "format" "long")) }}
 <!-- {{ $frontBundle := .Site.Params.frontBundle | default "articles" }} -->
 
-<div class="p-2">
+<div class="p-2 mt-8">
 <a href="{{ .Permalink }}">
   {{ if .Params.thumbnail }}
   <div class="relative">
@@ -15,15 +15,15 @@
     {{ end }}
   </div>
   {{ end }}
-  <div class="my-4 text-xl font-semibold">{{ .Params.title }}</div>
+  <div class="my-4 text-xl font-semibold tracking-widest">{{ .Params.title }}</div>
   <!-- <div>{{ .Params.description }}</div> -->
 
-  <!-- <style type="text/css">
+  <style type="text/css">
     img {
       background-position: center center;
       background-size: cover;
     }
-  </style> -->
+  </style>
 
 
   

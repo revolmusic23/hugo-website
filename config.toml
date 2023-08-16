@@ -1,6 +1,6 @@
 baseurl = "https://revolmusic.me/"
 metaDataFormat = "yaml"
-title = "雷歐 Revol"
+title = "雷歐 REVOL"
 theme = "blist"
 
 showPageTitleInTOC = true
@@ -17,55 +17,55 @@ pluralizeListTitles = false
     # languageName = "English"
 
     [languages.en.params]
-      introTitle = "我是 雷歐 Revol"
+      introTitle = "我是 雷歐 REVOL"
       introSubtitle = "編曲 x 流行鋼琴教學"
       introPhoto = "/thumbnail/profile-NTU.jpeg"
       logo = "/thumbnail/logo-001.png"
 
     [[languages.en.menu.main]]
         identifier = "articles"
-        name = "文章"
+        name = "文章 ARTICLES"
         url = "articles"
         weight = 10
 
     [[languages.en.menu.main]]
         identifier = "about"
-        name = "關於我"
+        name = "關於我 ABOUT"
         url = "about"
         # url = "page/about/"
         weight = 20
 
     # [[languages.en.menu.main]]
-    #     identifier = "tags"
-    #     name = "標籤"
-    #     url = "tags"
-    #     weight = 30
-
-    # [[languages.en.menu.main]]
-    #     identifier = "categories"
-    #     name = "分類"
-    #     url = "/categories"
-    #     weight = 35
+    #     identifier = "portfolio"
+    #     name = "我的作品"
+    #     url = "/portfolio/arrangement/all"
+    #     weight = 40
 
     [[languages.en.menu.main]]
-        identifier = "portfolio"
-        name = "我的作品"
-        url = "/portfolio/arrangement/all"
+        identifier = "works"
+        name = "我的作品 WORKS"
+        url = "/works/arrangement/all"
         weight = 40
 
       [[languages.en.menu.main]]
           identifier = "arrangement"
-          parent = "portfolio"
-          name = "編曲"
-          url = "/portfolio/arrangement/all"
+          parent = "works"
+          name = "編曲 ARRANGEMENT"
+          url = "/works/arrangement/all"
           weight = 10
       
       [[languages.en.menu.main]]
           identifier = "piano-video"
-          parent = "portfolio"
-          name = "鋼琴"
-          url = "/portfolio/piano-video"
+          parent = "works"
+          name = "鋼琴 PIANO"
+          url = "/piano-video"
           weight = 20
+
+    # [[languages.en.menu.main]]
+    #   identifier = "works"
+    #   name = "音樂作品"
+    #   url = "works"
+    #   weight = 50
       
 
     # [[languages.en.menu.main]]
@@ -111,10 +111,11 @@ pluralizeListTitles = false
   # Color for the intro details and social links block, not applicable for dark mode
   # Supported values: Any color from TailwindCSS default colors
   # Reference: https://tailwindcss.com/docs/customizing-colors
-  ascentColor = "bg-blue-100"
+  # ascentColor = "bg-blue-100"
 
   # The page bundle that is shown on the front page
-  frontBundle = "articles"
+  frontBundle = "works"
+  # frontBundle = "articles"
 
   # ShowPostNavLinks: true
 

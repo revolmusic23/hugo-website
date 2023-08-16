@@ -24,20 +24,21 @@
 
 
 <!-- <header class="container max-w-screen-max p-6 flex justify-between md:justify-between gap-4 flex-wrap "> -->
-<header class="max-w-screen-max p-6 pt-6 pb-6 pl-12 pr-12 flex justify-between md:justify-between gap-4 flex-wrap 
+<header class="max-w-screen-max pl-2 pr-6 pt-6 pb-6 pl-12 pr-12 flex justify-between md:justify-between gap-4 flex-wrap 
                  bg-whitesmoke dark:bg-gray-800">
   <!-- upper left logo -->
-  <a href="{{ .Site.Home.Permalink }}" class="logo capitalize font-extrabold text-2xl">
+  <a href="{{ .Site.Home.Permalink }}" class="logo capitalize font-extrabold text-2xl m-0 items-center grid justify-items-center max-w-[12rem] tracking-widest ">
     {{ if .Site.Params.logo }}
     <!-- <figure> -->
-      <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}"  class=" h-8 max-w-md" align="left">
+      <!-- <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}"  class=" h-8 max-w-md" align="left"> -->
       <!-- <br /> -->
       <!-- <figcaption> -->
-        <p>&nbsp;&nbsp;{{ .Site.Title }}</p>
+        <p>{{ .Site.Title }}</p>
+        <!-- <p>&nbsp;&nbsp;{{ .Site.Title }}</p> -->
         <!-- <p align="right">{{ .Site.Title }}</p> -->
         
       <!-- </figcaption> -->
-      <img/>
+      <!-- <img/> -->
     <!-- </figure> -->
     {{ else }}
     {{ end }}
@@ -54,7 +55,7 @@
   
   <!-- menu name position and color -->
   <ul class="mobile-menu absolute z-10 px-6 pb-6 md:p-0 top-full left-0 w-full md:w-auto md:relative hidden 
-              md:flex flex-col md:flex-row items-end md:items-center gap-4 lg:gap-6 dark:bg-gray-800">
+              md:flex flex-col md:flex-row items-end md:items-center gap-4 lg:gap-6 dark:bg-gray-800 tracking-widest ">
 
     <!-- menu name -->
     <!-- {{ range .Site.Menus.main }}
