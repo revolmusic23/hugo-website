@@ -114,7 +114,7 @@ pluralizeListTitles = false
   # ascentColor = "bg-blue-100"
 
   # The page bundle that is shown on the front page
-  frontBundle = "works"
+  frontBundle = "works-index"
   # frontBundle = "articles"
 
   # ShowPostNavLinks: true
