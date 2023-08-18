@@ -1,4 +1,4 @@
-baseurl = "https://revolmusic.me/"
+baseurl = "//revolmusic.me/"
 metaDataFormat = "yaml"
 title = "雷歐 REVOL"
 theme = "blist"
