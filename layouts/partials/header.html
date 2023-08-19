@@ -22,18 +22,21 @@
 
 </style>
 
+<!-- home button -->
+<link href='https://unpkg.com/css.gg@2.0.0/icons/css/home.css' rel='stylesheet'>
 
 <!-- <header class="container max-w-screen-max p-6 flex justify-between md:justify-between gap-4 flex-wrap "> -->
-<header class="max-w-screen-max pl-6 pr-6 pt-6 pb-6 pl-12 pr-12 flex justify-between md:justify-between gap-4 flex-wrap 
+<header class="max-w-screen-max pt-6 pb-6 pl-6 pr-6 flex justify-between md:justify-between gap-4 flex-wrap 
                  bg-whitesmoke dark:bg-gray-800">
   <!-- upper left logo -->
-  <a href="{{ .Site.Home.Permalink }}" class="logo capitalize font-extrabold text-2xl m-0 items-center grid justify-items-start max-w-[12rem] tracking-widest ">
+  <a href="{{ .Site.Home.Permalink }}" class="logo capitalize font-extrabold text-lg m-0 items-center flex justify-items-start max-w-[14rem] tracking-widest ">
     {{ if .Site.Params.logo }}
     <!-- <figure> -->
       <!-- <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}"  class=" h-8 max-w-md" align="left"> -->
+      <i class="gg-home mt-1.5 p-0 flex items-center"></i>
       <!-- <br /> -->
       <!-- <figcaption> -->
-        <p>{{ .Site.Title }}</p>
+      <p class="site-title px-3">{{ .Site.Title }}</p>
         <!-- <p>&nbsp;&nbsp;{{ .Site.Title }}</p> -->
         <!-- <p align="right">{{ .Site.Title }}</p> -->
         
@@ -132,20 +135,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     {{ if .Site.IsMultiLingual }}
     {{ if ge (len .Site.Languages) 3 }}
     <li class="relative cursor-pointer">
@@ -197,7 +186,7 @@
     {{ end }}
 
     <div class="btn-search-mode">
-      
+
       <!-- search button -->
       {{ if .Site.Params.enableSearch }}
       <li class="grid place-items-center">
@@ -238,14 +227,6 @@
 
     {{ end }}
   </ul>
-
-  <!-- <style>
-    .header {
-      position: fixed;
-      top:0;
-      left:0;
-    }
-  </style> -->
   
 </header>
 

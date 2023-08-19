@@ -13,6 +13,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -276,6 +277,16 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 @media screen and (max-width: 767px) {
   
+  header {
+  }
+
+  .logo {
+    max-width: 20px;
+  }
+
+  .site-title {
+    display: none;
+  }
   .menu__btn {
     display: none;
   }
@@ -346,9 +357,11 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   .single-thumbnail {
     height: 20rem;
   }
-  .single-thumbnail.works {
-    height: 10rem;
-    width: 10rem;
+  .single-thumbnail-works {
+    height: 14rem;
+    width: 14rem;
+    /* height: 20px;
+    width: 20px; */
   }
   .single-des-works {
     font-size: 1rem;
