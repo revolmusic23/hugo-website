@@ -347,8 +347,8 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
     height: 20rem;
   }
   .single-thumbnail.works {
-    /* height: 10rem;
-    width: 10rem; */
+    height: 10rem;
+    width: 10rem;
   }
   .single-des-works {
     font-size: 1rem;
@@ -361,5 +361,31 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .works-display-song {
+    display: flex;
+    padding: 0;
+    margin: 15px 0;
+    display: grid;
+    grid-template-columns: 3fr 8fr;
+    height: 80px;
+    /* align-items: center; */
+    position: relative;
+  }
+  .works-display-thumbnail {
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    align-items: center;
+    right: 0px;
+  }
+  .works-display-word {
+    align-items: center;
+    position: relative;
+    justify-items: start;
+  }
+  .works-display-word * {
+    justify-items: start;
+    transform: scale(80%);
   }
 }

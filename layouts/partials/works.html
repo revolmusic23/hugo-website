@@ -3,11 +3,11 @@
 <!-- {{ $frontBundle := .Site.Params.frontBundle | default "articles" }} -->
 
 
-<div class="p-2 mt-8">
-<a href="{{ .Permalink }}">
+<!-- <div class=""> -->
+<a href="{{ .Permalink }}" class="works-display-song p-2 mb-8">
   {{ if .Params.thumbnail }}
   <div class="relative grid justify-items-center">
-    <img src="{{ .Params.thumbnail }}" alt="{{ .Params.title }}" class="rounded-lg shadow-sm w-72 h-72 object-cover " />
+    <img src="{{ .Params.thumbnail }}" alt="{{ .Params.title }}" class="works-display-thumbnail rounded-lg shadow-sm w-72 h-72 object-cover " />
     {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }}
     <!-- The date on thumbnail -->
     <!-- <div class="absolute top-4 right-4 rounded shadow bg-white text-gray-900 dark:bg-gray-900 dark:text-white text-sm px-2 py-0.5">
@@ -16,8 +16,11 @@
     {{ end }}
   </div>
   {{ end }}
-  <div class="mt-4 mb-2 text-xl font-semibold grid justify-items-center tracking-widest">{{ .Params.title }}</div>
-  <div class="m-0 text-base font-normal grid justify-items-center tracking-widest">{{ .Params.description }}</div>
+  <div class="works-display-word">
+    <div class="works-display-word-title mt-4 mb-2 text-xl font-semibold grid justify-items-center tracking-widest">{{ .Params.title }}</div>
+    <div class="works-display-word-des m-0 text-base font-normal grid justify-items-center tracking-widest">{{ .Params.description }}</div>
+  </div>
+  
 
   <style type="text/css">
     img {
@@ -59,4 +62,4 @@
     </div>
   {{- end }}
 {{ end }} -->
-</div>
+<!-- </div> -->
