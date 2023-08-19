@@ -203,14 +203,40 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   transition: visibility 0.15s ease, transform 0.15s ease, -webkit-transform 0.15s ease;
 }
 
-@media screen and (min-width: 1000px) {
-  
+
+.btn-search-mode {
+  display: flex;
+  /* padding: 10px; */
+  /* margin: 0 10px; */
 }
+
+.btn-search-mode .place-items-center {
+  /* display: flex; */
+  /* padding: 10px; */
+  margin: 0;
+  /* margin-left: 0; */
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+  header {
+    /* font-size: 14px; */
+  }
+  .logo {
+    /* font-size: 100%; */
+  }
+}
+
+
 
 @media screen and (min-width: 767px) {
   .menu {
     /* border-bottom: 5px solid #e22d30; */
     /* font-size: 50%; */
+  }
+  .logo {
+    /* font-size: 14px; */
+    /* font-size: 100%; */
   }
   .menu__btn {
     display: none;
@@ -232,7 +258,33 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .logo {
+    font-size: 1.25rem;
+  }
+  .introName {
+    font-size: 1.75rem;
+    margin-bottom: 6px;
+  }
+  .introDes {
+    font-size: 1rem;
+  }
+}
+
+
+
+
 @media screen and (max-width: 767px) {
+  
+  .menu__btn {
+    display: none;
+  }
+
+  .mobile-menu {
+    background-color: #f0f0f0;
+  }
+
+  /* submenu icon */
   .menu__item.menu__dropdown .drop-icon {
     position: absolute;
     right: 1rem;
@@ -254,7 +306,9 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
   }
 }
 
+
 @media screen and (max-width: 620px) {
+
   .menu__item.menu__dropdown .drop-icon {
     position: absolute;
     right: 1rem;
@@ -271,5 +325,41 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
     display: block;
     position: relative;
     max-width: 100%;
+    z-index: 20;
+  }
+  .btn-search-mode {
+    display: flex;
+    /* flex-direction: row; */
+    /* padding: 0 50px; */
+    /* margin: 0 50px; */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .list-title {
+    font-size: 1.5rem;
+  }
+  .list-article {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .single-thumbnail {
+    height: 20rem;
+  }
+  .single-thumbnail.works {
+    /* height: 10rem;
+    width: 10rem; */
+  }
+  .single-des-works {
+    font-size: 1rem;
+  }
+  .single-display-works {
+    grid-template-columns: none;
+    display: block;
+  }
+  .single-display-works article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

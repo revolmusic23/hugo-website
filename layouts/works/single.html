@@ -2,18 +2,18 @@
   {{ $lastmodstr := (partial "date.html" (dict "date" .Lastmod "language" $.Page.Language "format" "long")) }}
   {{ $datestr := (partial "date.html" (dict "date" .Date "language" $.Page.Language "format" "long")) }}
 
-  <div class="grid grid-cols-2 items-center mb-6">
+  <div class="single-display-works grid grid-cols-2  mb-6 items-center">
   
     {{ if (and .Params.thumbnail (not (or .Site.Params.hidePageThumbnail .Params.hidePageThumbnail)) ) }}
     <div class="relative max-w-5xl mx-auto px-4">
-      <img src="{{ .Params.thumbnail }}" class="rounded-lg shadow-sm mx-auto w-96 h-96 object-cover" />
+      <img src="{{ .Params.thumbnail }}" class="single-thumbnail-works rounded-lg shadow-sm mx-auto w-96 h-96 object-cover" />
     </div>
     {{ end }}
 
-    <article class="prose lg:prose-lg my-8 dark:prose-dark px-4 grid justify-items-start">
+    <article class="prose lg:prose-lg my-8 dark:prose-dark px-4  ">
 
       <h2 class="text-2xl font-bold m-0 tracking-widest">{{ .Title }}</h2>
-      <h4 class="text-xl font-medium m-0 tracking-widest">{{ .Description }}</h3>
+      <h4 class="single-des-works text-xl font-medium m-0 tracking-widest">{{ .Description }}</h3>
       {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }}
       <h4 class="text-base m-0 flex items-center flex-wrap">
         <svg xmlns="http://www.w3.org/2000/svg" class="mr-1" width="16" height="16" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">

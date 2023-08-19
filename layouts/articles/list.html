@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-  <h1 class="container px-6 pt-6 mx-auto text-3xl font-semibold tracking-widest grid justify-items-center">{{ .Title }}</h1>
+  <h1 class="container list-title px-6 pt-6 mx-auto text-3xl font-semibold tracking-widest grid justify-items-center">{{ .Title }}</h1>
 
   <!-- If you want, .Pages.ByDate.Reverse 6 -->
   {{ $paginator := .Paginate .Pages.ByDate.Reverse 24 }}

@@ -24,10 +24,10 @@
 
 
 <!-- <header class="container max-w-screen-max p-6 flex justify-between md:justify-between gap-4 flex-wrap "> -->
-<header class="max-w-screen-max pl-2 pr-6 pt-6 pb-6 pl-12 pr-12 flex justify-between md:justify-between gap-4 flex-wrap 
+<header class="max-w-screen-max pl-6 pr-6 pt-6 pb-6 pl-12 pr-12 flex justify-between md:justify-between gap-4 flex-wrap 
                  bg-whitesmoke dark:bg-gray-800">
   <!-- upper left logo -->
-  <a href="{{ .Site.Home.Permalink }}" class="logo capitalize font-extrabold text-2xl m-0 items-center grid justify-items-center max-w-[12rem] tracking-widest ">
+  <a href="{{ .Site.Home.Permalink }}" class="logo capitalize font-extrabold text-2xl m-0 items-center grid justify-items-start max-w-[12rem] tracking-widest ">
     {{ if .Site.Params.logo }}
     <!-- <figure> -->
       <!-- <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}"  class=" h-8 max-w-md" align="left"> -->
@@ -196,41 +196,46 @@
     {{ end }}
     {{ end }}
 
-    <!-- search button -->
-    {{ if .Site.Params.enableSearch }}
-    <li class="grid place-items-center">
-      <span class="open-search inline-block cursor-pointer">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5"
-          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <!-- search icon -->
-          <circle cx="10" cy="10" r="7" />
-          <line x1="21" y1="21" x2="15" y2="15" />
-        </svg>
-      </span>
-    </li>
-    {{ end }}
+    <div class="btn-search-mode">
+      
+      <!-- search button -->
+      {{ if .Site.Params.enableSearch }}
+      <li class="grid place-items-center">
+        <span class="open-search inline-block cursor-pointer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <!-- search icon -->
+            <circle cx="10" cy="10" r="7" />
+            <line x1="21" y1="21" x2="15" y2="15" />
+          </svg>
+        </span>
+      </li>
+      {{ end }}
 
-    <!-- dark mode button -->
-    {{ if .Site.Params.darkModeToggle }}
-    <li class="grid place-items-center">
-      <span class="toggle-dark-mode inline-block cursor-pointer">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
-          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <!-- figure only -->
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <circle cx="12" cy="12" r="3" />
-          <line x1="12" y1="5" x2="12" y2="5.01" />
-          <line x1="17" y1="7" x2="17" y2="7.01" />
-          <line x1="19" y1="12" x2="19" y2="12.01" />
-          <line x1="17" y1="17" x2="17" y2="17.01" />
-          <line x1="12" y1="19" x2="12" y2="19.01" />
-          <line x1="7" y1="17" x2="7" y2="17.01" />
-          <line x1="5" y1="12" x2="5" y2="12.01" />
-          <line x1="7" y1="7" x2="7" y2="7.01" />
-        </svg>
-      </span>
-    </li>
+      <!-- dark mode button -->
+      {{ if .Site.Params.darkModeToggle }}
+      <li class="grid place-items-center">
+        <span class="toggle-dark-mode inline-block cursor-pointer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <!-- figure only -->
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <circle cx="12" cy="12" r="3" />
+            <line x1="12" y1="5" x2="12" y2="5.01" />
+            <line x1="17" y1="7" x2="17" y2="7.01" />
+            <line x1="19" y1="12" x2="19" y2="12.01" />
+            <line x1="17" y1="17" x2="17" y2="17.01" />
+            <line x1="12" y1="19" x2="12" y2="19.01" />
+            <line x1="7" y1="17" x2="7" y2="17.01" />
+            <line x1="5" y1="12" x2="5" y2="12.01" />
+            <line x1="7" y1="7" x2="7" y2="7.01" />
+          </svg>
+        </span>
+      </li>
+    
+    </div>
+
     {{ end }}
   </ul>
 

@@ -1,9 +1,9 @@
 {{ define "main" }}
 
-  <h1 class="container px-6 pt-6 mx-auto text-3xl font-semibold tracking-widest grid justify-items-center">{{ .Title }}</h1>
+  <h1 class="container list-title px-6 pt-6 mx-auto text-3xl font-semibold tracking-widest grid justify-items-center">{{ .Title }}</h1>
 
 
-  <article class="relative max-w-full grid justify-items-center mx-auto px-4 py-12 text-xl leading-10 tracking-widest">
+  <article class="list-article relative max-w-full grid justify-items-center mx-auto px-4 py-12 text-xl leading-10 tracking-widest">
     {{ if (or .Site.Params.toc .Params.toc) }}
     {{- partial "toc.html" . -}}
     {{ end }}
